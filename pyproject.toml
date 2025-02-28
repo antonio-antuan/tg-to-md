@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tg-to-md"
+version = "0.1.0"
+description = ""
+authors = ["antonio-antuan <an_github@fastmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+telethon = "^1.36.0"
+cryptg = "^0.4.0"
+black = "^24.8.0"
+pytz = "^2024.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
