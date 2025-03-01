@@ -7,10 +7,12 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-telethon = "^1.36.0"
+telethon = "^1.37.0"
 cryptg = "^0.4.0"
 black = "^24.8.0"
 pytz = "^2024.2"
+dotenv = "^0.9.9"
+openai = "^1.65.1"
 
 
 [build-system]
